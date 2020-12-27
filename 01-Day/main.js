@@ -17,12 +17,17 @@ let city = null
   console.log(name, isMarried, maritalStatus, city)
  */
 // exercise 06
+/*
 let firstName
 let lastName
 let isMarried
 let maritalStatus
-
-
+*/
+//exercise 07
+let firstName =  'Badmus'
+let lastName = 'Adegbite'
+let isMarried = false
+let maritalStatus = null
 
 // let firstName = 'Asabeneh' // first name of a person
 // let lastName = 'Yetayeh' // last name of a person
