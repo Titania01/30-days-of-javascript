@@ -23,11 +23,33 @@ let lastName
 let isMarried
 let maritalStatus
 */
-//exercise 07
+// exercise 07
+/*
+let name = 'Badmus'
+let isMarried = false
+let maritalStatus
+let city = null
+*/
+//exercise 08
+/*
+let firstName =  'Badmus'
+     lastName = 'Adegbite'
+     isMarried = false
+     maritalStatus = null
+console.log(firstName, lastName, isMarried, maritalStatus)
+*/
+//exercise 09
+/*
 let firstName =  'Badmus'
 let lastName = 'Adegbite'
 let isMarried = false
 let maritalStatus = null
+*/
+//exercise 10
+let myAge = "I am 25 years old."
+let yourAge = "You are 30 years old."
+
+console.log(myAge, yourAge)
 
 // let firstName = 'Asabeneh' // first name of a person
 // let lastName = 'Yetayeh' // last name of a person
