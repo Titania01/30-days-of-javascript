@@ -5,8 +5,22 @@
 /*
   comments can make code readable, easy to reuse and informative
  */
-
-
+// exercise 04
+/*
+let name = 'Badmus'
+let isMarried = false
+let maritalStatus
+let city = null
+ */
+// exercise 05
+/*
+  console.log(name, isMarried, maritalStatus, city)
+ */
+// exercise 06
+let firstName
+let lastName
+let isMarried
+let maritalStatus
 
 
 

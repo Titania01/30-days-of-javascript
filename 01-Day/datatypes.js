@@ -1,1 +1,1 @@
-console.log(name, isMarried, maritalStatus, city)
+// console.log(name, isMarried, maritalStatus, city)
