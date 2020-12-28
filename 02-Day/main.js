@@ -4,6 +4,8 @@ console.log(challenge)
 console.log(challenge.length)
 console.log(challenge.toUpperCase())
 console.log(challenge.toLowerCase())
+console.log(challenge.substr(3, 20))
+console.log(challenge.substring(3, 21))
 
 
 
