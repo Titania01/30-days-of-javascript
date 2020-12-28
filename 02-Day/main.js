@@ -11,7 +11,11 @@ console.log(challenge.substring(0, 2))
 console.log(challenge.includes('Script'))
 console.log(challenge.split(''))
 console.log(challenge.split(' '))
-
+let media= 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
+console.log(media.split(' '))
+console.log(challenge.replace('JavaScript', 'Python'))
+console.log(challenge.charAt(15))
+console.log(challenge.charCodeAt(12))
 
 
 // let randomNum = Math.random()
