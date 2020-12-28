@@ -6,6 +6,10 @@ console.log(challenge.toUpperCase())
 console.log(challenge.toLowerCase())
 console.log(challenge.substr(3, 20))
 console.log(challenge.substring(3, 21))
+console.log(challenge.substr(0, 3))
+console.log(challenge.substring(0, 2))
+console.log(challenge.includes('Script'))
+console.log(challenge.split(' '))
 
 
 
