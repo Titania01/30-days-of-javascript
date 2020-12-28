@@ -16,6 +16,8 @@ console.log(media.split(' '))
 console.log(challenge.replace('JavaScript', 'Python'))
 console.log(challenge.charAt(15))
 console.log(challenge.charCodeAt(12))
+console.log(challenge.indexOf('a'))
+console.log(challenge.lastIndexOf('a'))
 
 
 // let randomNum = Math.random()
