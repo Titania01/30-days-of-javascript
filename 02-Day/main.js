@@ -18,6 +18,8 @@ console.log(challenge.charAt(15))
 console.log(challenge.charCodeAt(12))
 console.log(challenge.indexOf('a'))
 console.log(challenge.lastIndexOf('a'))
+let sentence = 'You cannot end a sentence with because because because is a conjunction'
+console.log(sentence.indexOf('because'))
 
 
 // let randomNum = Math.random()
