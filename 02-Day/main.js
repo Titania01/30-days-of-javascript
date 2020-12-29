@@ -1,4 +1,5 @@
 // Exercise: Level 1
+
 let challenge = '30 Days Of JavaScript'
 console.log(challenge)
 console.log(challenge.length)
@@ -20,6 +21,33 @@ console.log(challenge.indexOf('a'))
 console.log(challenge.lastIndexOf('a'))
 let sentence = 'You cannot end a sentence with because because because is a conjunction'
 console.log(sentence.indexOf('because'))
+console.log(sentence.lastIndexOf('because'))
+console.log(sentence.search('because'))
+let space =  ' 30 Days Of JavaScript '
+console.log(space.trim())
+console.log(challenge.startsWith(30))
+console.log(challenge.endsWith('JavaScript'))
+console.log(challenge.match(/a/gi))
+let merge = '30 Days Of'
+console.log(merge.concat(' JavaScript'))
+console.log(challenge.repeat(2))
+
+//Exercise: Level 2
+
+console.log(`The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.
+`)
+console.log("Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead."
+)
+let str = "10"
+let num = 10
+console.log(str==num)
+console.log(parseFloat('9.8'))
+console.log(Math.round('9.8'))
+
+let string = 'python jargon'
+console.log(string.includes('on'))
+let word = 'I hope this course is not full of jargon'
+console.log(string.includes('jargon'))
 
 
 // let randomNum = Math.random()
