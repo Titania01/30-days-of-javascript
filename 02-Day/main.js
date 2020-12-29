@@ -49,6 +49,9 @@ console.log(string.includes('on'))
 let word = 'I hope this course is not full of jargon'
 console.log(string.includes('jargon'))
 
+const nume = Math.floor(Math.random() * 100)
+console.log(nume)
+
 
 // let randomNum = Math.random()
 // let numBtnZeroAndTen = randomNum * 11
