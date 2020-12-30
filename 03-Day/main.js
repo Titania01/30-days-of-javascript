@@ -1,2 +1,2 @@
-const agree = confirm('Are you sure you like to delete? ')
-console.log(agree) 
+const now = new Date()
+console.log(now)
