@@ -51,7 +51,20 @@ console.log(string.includes('jargon'))
 
 const nume = Math.floor(Math.random() * 100)
 console.log(nume)
+const numb = Math.floor(Math.random(50) + 50)
+console.log(numb)
+let nums = Math.floor(Math.random() * 256)
+console.log(nums)
+console.log('1 1 1 1 1\n2 1 2 4 8\n3 1 3 9 27\n4 1 4 16 64\n5 1 5 25 125')  
+const wordy = 'You cannot end a sentence with because because because is a conjunction'
+console.log(wordy.substr(30, 25))
 
+
+// Exercises: Level 3
+let noOfTime = 'Love is the best thing in this world. Some found their love and some are still looking for their love.'
+console.log(noOfTime.match('love'))
+let pattern = /love/gi
+console.log(noOfTime.match(pattern))
 
 // let randomNum = Math.random()
 // let numBtnZeroAndTen = randomNum * 11
