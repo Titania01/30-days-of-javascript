@@ -65,6 +65,12 @@ let noOfTime = 'Love is the best thing in this world. Some found their love and 
 console.log(noOfTime.match('love'))
 let pattern = /love/gi
 console.log(noOfTime.match(pattern))
+noOfTime = 'You cannot end a sentence with because because because is a conjunction'
+console.log(noOfTime.match('because'))
+pattern = /because/gi
+console.log(noOfTime.match(pattern))
+
+
 
 // let randomNum = Math.random()
 // let numBtnZeroAndTen = randomNum * 11
