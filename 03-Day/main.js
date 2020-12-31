@@ -89,6 +89,13 @@ let height = 10
 const areaOfTriangle = 0.5 * base * height
 console.log(areaOfTriangle)
 
+// 2.Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
+let a = 5
+let b = 4
+let c = 3
+const perimeterOfTriangle = a + b + c
+console.log(perimeterOfTriangle) 
+
 
 
 
