@@ -107,7 +107,11 @@ let radius = prompt('Enter radius')
 let area = PI * radius * radius
 alert(area)
 
-
+// 9.Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
+let hours = 40
+let ratePerHour = 28
+let weeklyEarning = hours * ratePerHour
+alert(weeklyEarning)
 
 
 
