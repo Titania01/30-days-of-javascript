@@ -31,22 +31,11 @@ if (a > b) {
   console.log('a is less than b')
 }
 
-let isRaining = true
-isRaining
-  ? console.log('You need a rain coat.')
-  : console.log('No need for a rain coat.')
+// 4.Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript?
 
-  let num = prompt('Enter number');
-switch (true) {
-  case num > 0:
-    console.log('Number is positive');
-    break;
-  case num == 0:
-    console.log('Numbers is zero');
-    break;
-  case num < 0:
-    console.log('Number is negative');
-    break;
-  default:
-    console.log('Entered value was not a number');
+let num = 8
+if (num % 2 == 0) {
+  console.log('num is even')
+}else {
+  console.log('num is odd')
 }
