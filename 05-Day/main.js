@@ -11,3 +11,9 @@ console.log(arr)
 
 const eightEmptyValues = Array(8).fill(9)
 console.log(eightEmptyValues)
+
+const firstLetter = [1, 2, 3]
+const secondLetter = [4, 5, 6]
+const thirdLetter = firstFruit.concat(secondLetter)
+
+console.log(thirdLetter)
