@@ -9,5 +9,5 @@ console.log(lastFruit)
 const arr = Array()
 console.log(arr)
 
-const eightEmptyValues = Array(8)
+const eightEmptyValues = Array(8).fill(9)
 console.log(eightEmptyValues)
