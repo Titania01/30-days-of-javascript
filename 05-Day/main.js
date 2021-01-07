@@ -24,3 +24,11 @@ if (index != -1) {
 }else {
   console.log('This fruit does not exist in the array')
 }
+
+let indexOfAvocado =fruits.indexOf('avocado')
+
+if (indexOfAvocado != -1) {
+  console.log('This fruit does exist in the array')
+}else {
+  console.log('This fruit does not exist in the array')
+}
