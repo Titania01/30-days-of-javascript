@@ -14,6 +14,13 @@ console.log(eightEmptyValues)
 
 const firstLetter = [1, 2, 3]
 const secondLetter = [4, 5, 6]
-const thirdLetter = firstFruit.concat(secondLetter)
+const thirdLetter = firstLetter.concat(secondLetter)
 
 console.log(thirdLetter)
+let index = fruits.indexOf('banana')
+
+if (index != -1) {
+  console.log('This fruit does exist in the array')
+}else {
+  console.log('This fruit does not exist in the array')
+}
