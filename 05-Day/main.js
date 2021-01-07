@@ -5,3 +5,9 @@ let lastIndex = fruits.length -1
 console.log(lastIndex)
 let lastFruit = fruits[3]
 console.log(lastFruit)
+
+const arr = Array()
+console.log(arr)
+
+const eightEmptyValues = Array(8)
+console.log(eightEmptyValues)
