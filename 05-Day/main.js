@@ -2,7 +2,9 @@
 const arr = []
 const five = ['one', 'two', 'three', 'four', 'six']
 console.log(five.length)
-
+console.log(five[0])
+console.log(five[2])
+console.log(five[4])
 
 
 
