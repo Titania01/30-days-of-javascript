@@ -6,6 +6,7 @@ console.log(five[0])
 console.log(five[2])
 console.log(five[4])
 const mixedDataTypes = ['string', 'number', 'array', 'boolean', 'object', 'null', 'undefined']
+console.log(mixedDataTypes.length)
 
 
 
