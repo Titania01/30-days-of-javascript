@@ -1,5 +1,6 @@
 // Exercise: Level 1
 const arr = []
+const five = ['one', 'two', 'three', 'four', 'six']
 
 
 
