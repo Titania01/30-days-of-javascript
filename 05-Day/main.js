@@ -14,6 +14,7 @@ console.log(itCompanies[0])
 console.log(itCompanies[3])
 console.log(itCompanies[6])
 console.log(itCompanies.sort())
+console.log(itCompanies.reverse())
 
 
 
