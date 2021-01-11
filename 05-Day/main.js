@@ -7,6 +7,14 @@ console.log(five[2])
 console.log(five[4])
 const mixedDataTypes = ['string', 'number', 'array', 'boolean', 'object', 'null', 'undefined']
 console.log(mixedDataTypes.length)
+const itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+console.log(itCompanies)
+console.log(itCompanies.length)
+console.log(itCompanies[0])
+console.log(itCompanies[3])
+console.log(itCompanies[6])
+console.log(itCompanies.sort())
+
 
 
 
