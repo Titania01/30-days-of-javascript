@@ -1,3 +1,5 @@
+const country = require("./src/countries")
+const webt = require("./src/web_techs")
 // Exercise: Level 1
 const arr = []
 const five = ['one', 'two', 'three', 'four', 'six']
@@ -17,7 +19,11 @@ console.log(itCompanies.sort())
 console.log(itCompanies.reverse())
 console.log(itCompanies.slice(3, 7))
 
+// Exercise: Level 2
 
+
+console.log(webt)
+console.log(country)
 
 
 // const fruits = ['banana', 'orange', 'mango', 'lemon']
@@ -55,3 +61,4 @@ console.log(itCompanies.slice(3, 7))
 //   console.log('This fruit does not exist in the array')
 // }
 
+const contries = require('./src/countries')
