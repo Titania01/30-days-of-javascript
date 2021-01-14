@@ -46,3 +46,27 @@ for (const num of numbers) {
 sum += num
 }
 console.log(sum)
+
+const webTechs = [
+'HTML',
+'CSS',
+'JavaScript',
+'React',
+'Redux',
+'Node',
+'MongoDB'
+]
+for (const tech of webTechs) {
+console.log(tech.toUpperCase())
+}
+
+for (const tech of webTechs) {
+console.log(tech[0])
+}
+
+for (let i = 0; i <= 5; i++){
+if(i==3){
+break
+}
+console.log(i)
+}
