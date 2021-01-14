@@ -1,11 +1,12 @@
-let i = 0
-while (i <= 5) {
-  console.log(i)
-  i++
+const webTechs = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'React',
+  'Redux',
+  'Node',
+  'MongoDB'
+]
+for (const tech of webTechs) {
+  console.log(tech.toUpperCase())
 }
-
-let = 0
-do{
-  console.log(i)
-  i++
-}while (i <= 5)
