@@ -1,34 +1,83 @@
-function sumArrayValues(arr) {
-  let sum = 0;
-  for(let i = 0; i < arr.length; i++) {
-    sum = sum + arr[i]
-  }
+// Exercises: Level 1
+
+function fullNameFun() {
+  let fullName = 'Adegbite Badmus'  
+  console.log(fullName)
+}
+fullNameFun()
+
+const funFullName = () => {
+  let lastName = 'Adegbite'
+  let firstName = 'Bidmus'
+  let full_name = lastName  + ' ' + firstName
+  return full_name
+}
+console.log(funFullName())
+
+const addNumbers = (a, b) => {
+  let sum = a + b
   return sum
 }
-const numbers = [1, 2, 3, 4, 5, 6]
+console.log(addNumbers(3,4))
 
-console.log(sumArrayValues(numbers))
-
-const areaOfCircle = (radius) => {
-  let area = Math.PI * radius * radius
+const areaOfRectangle = (l, w) => {
+  let area = l * w
   return area
 }
-console.log(parseInt(areaOfCircle(20)))
+console.log(areaOfRectangle(7,8))
 
-function sumAllNums() {
-  let sum = 0
-  for (let i = 0; i < arguments.length; i++) {
-    sum += arguments[i]
-  }
-  return sum
+function perimeterOfRectangle() {
+  let length = 80
+  let width = 67
+  let perimeter = 2*(length + width)
+  console.log(perimeter)
 }
-console.log(sumAllNums(1,4,6,8,9,9,8));
+perimeterOfRectangle()
 
-const sumAllNum = (...args) => {
-  let sum =0
-  for (let element of  args) {
-    sum += element
-  }
-  return sum
+const speed = () => {
+  let totalDist = 80
+  let totalTime = 20
+  let objSpeed = totalDist/totalTime
+  return objSpeed
 }
-console.log(sumAllNum(3,3,5,7,8,9,10));
+console.log(speed())
+
+const convertCelciusToFahrenheit = () => {
+  let oC = 80
+  let oF =  (oC * 9/5) + 32
+  return oF
+}
+console.log(convertCelciusToFahrenheit())
+
+
+function peopleWeight(weight,height) {
+   
+  let bmi = weight/(height * height)
+  if(bmi < 18.5) {
+    console.log('underweight')
+  }else if (bmi <= 24.9 && bmi >= 18.5) {
+    console.log('Normal weight')
+  }else if (bmi >= 25 && bmi <= 29.9) {
+    console.log('Overweight')
+  }else if (bmi >= 30) {
+    console.log('Obese')
+  }
+  return bmi
+}
+ console.log(peopleWeight(128,2))
+
+const checkSeason = (month) => {
+  let months = new Date()
+  let allM = months.getMonth()
+  if(month == allM[0,1,2]) {
+    console.log('Winter')
+  } else if (month == allM[3,4,5]) {
+    console.log('Autum')
+  }else if(month == allM[6,7,8]) {
+    console.log("Spring")
+  }else if (month == allM[9,10,11]) {
+    console.log("Summer")
+  }
+  return allM
+}
+console.log(checkSeason([3]));
