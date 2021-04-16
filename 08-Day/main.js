@@ -24,3 +24,17 @@ console.log(person.getPersonInfo());
 
 const entries = Object.entries(copyPerson)
 console.log(entries)
+
+// Exercises: Level 1
+const dog = {
+  name: "Bingo",
+  legs: 4,
+  color: "rhode",
+  age: 12,
+  bark: function() {
+    return 'woof woof'
+  }
+}
+console.log(dog)
+const prope = Object.entries(dog)
+console.log(prope)
