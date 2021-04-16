@@ -65,19 +65,20 @@ function peopleWeight(weight,height) {
   return bmi
 }
  console.log(peopleWeight(128,2))
+const months='january,february,march,april,may,june,july,august,september,october,november,december'.split(',')
 
-const checkSeason = (month) => {
-  let months = new Date()
-  let allM = months.getMonth()
-  if(month == allM[0,1,2]) {
-    console.log('Winter')
-  } else if (month == allM[3,4,5]) {
-    console.log('Autum')
-  }else if(month == allM[6,7,8]) {
-    console.log("Spring")
-  }else if (month == allM[9,10,11]) {
-    console.log("Summer")
+ let month = new Date().getMonth()
+ month = months[month]
+ const checkSeason = (month) => {
+  if(['january', 'february', 'march'].includes(month)) {
+    return 'Winter'
+  } else if (['april', 'may', 'june'].includes(month)) {
+    return 'Autum'
+  }else if(['july', 'august', 'september'].includes(month)) {
+    return 'Spring'
+  }else if (['october', 'november', 'december'].includes(month)) {
+    return 'Summer'
   }
-  return allM
+  
 }
-console.log(checkSeason([3]));
+console.log(checkSeason('october'));
