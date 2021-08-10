@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper1">
+      <h1>World Countries Data</h1>
+      <span>Currently, we have 250 countries</span>
+      <span></span>
+    </div>
+    <input type="text" />
+    <div class="wrapper2">
+      <button class="active">
+        <span>NAME</span>
+        <img src="./arrow-up-fill.svg" alt="arrow-icon" />
+      </button>
+      <button class="active">
+        <span>CAPITAL</span>
+        <img src="./arrow-up-fill.svg" alt="arrow-icon" />
+      </button>
+      <button class="active">
+        <span>POPULATION</span>
+        <img src="./arrow-up-fill.svg" alt="arrow-icon" />
+      </button>
+    </div>
+    <div class="container"></div>
+    <div class="lang-container">
+      <main>
+        <center>
+          <br />
+          <div class="division">
+            <button class="popul">POPULATION</button>
+            <button class="popul">LANGUAGES</button>
+          </div>
+          <p id="data-info">10 most populated countries in the world</p>
+        </center>
+        <hr />
+        <div id="data"></div>
+      </main>
+    </div>
+    <script src="./countries.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

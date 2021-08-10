@@ -1,0 +1,42 @@
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif "Avenir";
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  color: blueviolet;
+  text-align: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid lightgrey;
+}
+
+#data {
+  max-width: 90%;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-gap: 4px;
+}
+
+#data > div {
+  position: relative;
+}
+
+#data > div span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: purple;
+}
+
+button {
+  height: 3rem;
+  width: 8rem;
+  background-color: tomato;
+  border: none;
+  border-radius: 3px;
+}

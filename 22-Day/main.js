@@ -243,3 +243,5 @@ countries.forEach((country) => {
 
 bodyEl.appendChild(countryEl);
 bodyEl.style.fontFamily = "Avenir, Sego UI, Ubuntu, Sans-serif";
+
+//Exercises: Level 3
